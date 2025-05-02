@@ -14,7 +14,7 @@ module.exports = {
         'roboto-condensed': ['IBM Plex Sans'],
       },
       colors: {
-        'bg-dark': '#171717',
+        'bg-dark': '#1A1A1D',
         'primary-gold': "#FACE72",
         "card-dark": "#1F1F1F",
         "card-border": "#525252",
