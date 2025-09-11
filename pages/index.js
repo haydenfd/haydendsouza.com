@@ -1,5 +1,8 @@
 // import { projects } from '../data/projects';
 // import GenerateProjects from 'utils/generateProjects';
+
+import { Projects } from "components/Projects";
+
 // import { experience } from 'data/experience';
 export default function Landing() {
     return (
@@ -11,7 +14,7 @@ export default function Landing() {
                     <p className="mt-4 md:text-lg">Currently based in Seattle</p>
                     <p className="mt-4  md:text-lg">Recruiting for SWE, ML roles</p>
                     <p className="mt-4 md:text-lg">Past internships, experience involved LLMs and web development</p> */}
-                    <p className="mt-4 md:text-lg">I am reachable at haydenfds[at]gmail.com. I&apos;m always happy to connect with anyone!</p>
+                    <p className="mt-4 md:text-lg">I am reachable at <a href="mailto:haydenfds@gmail.com" className="links text-lg">haydenfds@gmail.com</a>. I&apos;m always happy to connect with anyone!</p>
             </section>
             <section className="w-full flex flex-row mt-8 gap-8">
                 <a href="https://github.com/haydenfd" rel="noopener noreferrer" target="_blank" className="links">GitHub</a>

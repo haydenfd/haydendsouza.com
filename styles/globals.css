@@ -44,5 +44,6 @@ html {
 }
 
 .links {
-   @apply dark:text-yellow-500 underline cursor-pointer font-medium text-xl dark:hover:text-yellow-300 text-blue-700 hover:text-blue-500;
+   @apply dark:text-yellow-500 underline cursor-pointer font-medium text-lg dark:hover:text-yellow-300 text-blue-700 hover:text-blue-500;
 }
+
